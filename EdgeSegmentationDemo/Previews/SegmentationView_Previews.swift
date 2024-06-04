@@ -1,7 +1,6 @@
 import SwiftUI
 import EdgeSegmentation
 
-@available(iOS 17.0, *)
 struct SegmentationView_Previews: PreviewProvider {
 
     struct SegmentationPreview: View {

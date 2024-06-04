@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43451D062BFA87D60080C356"
-               BuildableName = "EdgeSegmentationTest.app"
-               BlueprintName = "EdgeSegmentationTest"
-               ReferencedContainer = "container:EdgeSegmentationTest.xcodeproj">
+               BuildableName = "EdgeSegmentationDemo.app"
+               BlueprintName = "EdgeSegmentationDemo"
+               ReferencedContainer = "container:EdgeSegmentationDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43451D062BFA87D60080C356"
-            BuildableName = "EdgeSegmentationTest.app"
-            BlueprintName = "EdgeSegmentationTest"
-            ReferencedContainer = "container:EdgeSegmentationTest.xcodeproj">
+            BuildableName = "EdgeSegmentationDemo.app"
+            BlueprintName = "EdgeSegmentationDemo"
+            ReferencedContainer = "container:EdgeSegmentationDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43451D062BFA87D60080C356"
-            BuildableName = "EdgeSegmentationTest.app"
-            BlueprintName = "EdgeSegmentationTest"
-            ReferencedContainer = "container:EdgeSegmentationTest.xcodeproj">
+            BuildableName = "EdgeSegmentationDemo.app"
+            BlueprintName = "EdgeSegmentationDemo"
+            ReferencedContainer = "container:EdgeSegmentationDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

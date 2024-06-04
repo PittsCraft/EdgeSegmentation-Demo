@@ -23,7 +23,7 @@
 		430CC5122C0C967A00D7AC30 /* SegmentationView_Previews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentationView_Previews.swift; sourceTree = "<group>"; };
 		430CC51D2C0EEDD200D7AC30 /* SingleSegmentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSegmentationView.swift; sourceTree = "<group>"; };
 		430CC51F2C0EEF7700D7AC30 /* BatchSegmentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchSegmentationView.swift; sourceTree = "<group>"; };
-		43451D072BFA87D60080C356 /* EdgeSegmentationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeSegmentationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeSegmentationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43451D0A2BFA87D60080C356 /* EdgeSegmentationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSegmentationTestApp.swift; sourceTree = "<group>"; };
 		43451D0C2BFA87D60080C356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43451D0E2BFA87D70080C356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		43451CFE2BFA87D60080C356 = {
 			isa = PBXGroup;
 			children = (
-				43451D092BFA87D60080C356 /* EdgeSegmentationTest */,
+				43451D092BFA87D60080C356 /* EdgeSegmentationDemo */,
 				43451D082BFA87D60080C356 /* Products */,
 				430CC50C2C0BCA0A00D7AC30 /* Frameworks */,
 			);
@@ -70,23 +70,23 @@
 		43451D082BFA87D60080C356 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43451D072BFA87D60080C356 /* EdgeSegmentationTest.app */,
+				43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43451D092BFA87D60080C356 /* EdgeSegmentationTest */ = {
+		43451D092BFA87D60080C356 /* EdgeSegmentationDemo */ = {
 			isa = PBXGroup;
 			children = (
 				430CC5132C0C967A00D7AC30 /* Previews */,
 				43451D0A2BFA87D60080C356 /* EdgeSegmentationTestApp.swift */,
 				43451D0C2BFA87D60080C356 /* ContentView.swift */,
-				43451D0E2BFA87D70080C356 /* Assets.xcassets */,
-				43451D102BFA87D70080C356 /* Preview Content */,
 				430CC51D2C0EEDD200D7AC30 /* SingleSegmentationView.swift */,
 				430CC51F2C0EEF7700D7AC30 /* BatchSegmentationView.swift */,
+				43451D0E2BFA87D70080C356 /* Assets.xcassets */,
+				43451D102BFA87D70080C356 /* Preview Content */,
 			);
-			path = EdgeSegmentationTest;
+			path = EdgeSegmentationDemo;
 			sourceTree = "<group>";
 		};
 		43451D102BFA87D70080C356 /* Preview Content */ = {
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43451D062BFA87D60080C356 /* EdgeSegmentationTest */ = {
+		43451D062BFA87D60080C356 /* EdgeSegmentationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43451D152BFA87D70080C356 /* Build configuration list for PBXNativeTarget "EdgeSegmentationTest" */;
+			buildConfigurationList = 43451D152BFA87D70080C356 /* Build configuration list for PBXNativeTarget "EdgeSegmentationDemo" */;
 			buildPhases = (
 				43451D032BFA87D60080C356 /* Sources */,
 				43451D042BFA87D60080C356 /* Frameworks */,
@@ -112,12 +112,12 @@
 			);
 			dependencies = (
 			);
-			name = EdgeSegmentationTest;
+			name = EdgeSegmentationDemo;
 			packageProductDependencies = (
 				430CC50D2C0BCA0A00D7AC30 /* EdgeSegmentation */,
 			);
 			productName = EdgeSegmentationTest;
-			productReference = 43451D072BFA87D60080C356 /* EdgeSegmentationTest.app */;
+			productReference = 43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43451D022BFA87D60080C356 /* Build configuration list for PBXProject "EdgeSegmentationTest" */;
+			buildConfigurationList = 43451D022BFA87D60080C356 /* Build configuration list for PBXProject "EdgeSegmentationDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43451D062BFA87D60080C356 /* EdgeSegmentationTest */,
+				43451D062BFA87D60080C356 /* EdgeSegmentationDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EdgeSegmentationTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EdgeSegmentationDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 4MWY9CVYY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -340,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EdgeSegmentationTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EdgeSegmentationDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 4MWY9CVYY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -365,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43451D022BFA87D60080C356 /* Build configuration list for PBXProject "EdgeSegmentationTest" */ = {
+		43451D022BFA87D60080C356 /* Build configuration list for PBXProject "EdgeSegmentationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43451D132BFA87D70080C356 /* Debug */,
@@ -374,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43451D152BFA87D70080C356 /* Build configuration list for PBXNativeTarget "EdgeSegmentationTest" */ = {
+		43451D152BFA87D70080C356 /* Build configuration list for PBXNativeTarget "EdgeSegmentationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43451D162BFA87D70080C356 /* Debug */,
