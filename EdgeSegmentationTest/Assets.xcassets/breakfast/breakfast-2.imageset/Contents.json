@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "et-si-vous-commenciez-votre-journee-avec-un-beau-fruit-frais-ou-encore-un-jus-de-fruit-de-qualite-photo-shutterstock-1681983463.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
