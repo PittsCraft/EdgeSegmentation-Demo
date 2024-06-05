@@ -8,6 +8,7 @@ struct ContentView: View {
     }
 
     var body: some View {
+//        EmptyView()
         TabView {
             SingleSegmentationView()
                 .tabItem { Label("Single", systemImage: "person.fill") }

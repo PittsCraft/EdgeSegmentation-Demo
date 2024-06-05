@@ -12,17 +12,32 @@
 		430CC5162C0C967A00D7AC30 /* SegmentationView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC5122C0C967A00D7AC30 /* SegmentationView_Previews.swift */; };
 		430CC51E2C0EEDD200D7AC30 /* SingleSegmentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC51D2C0EEDD200D7AC30 /* SingleSegmentationView.swift */; };
 		430CC5202C0EEF7700D7AC30 /* BatchSegmentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC51F2C0EEF7700D7AC30 /* BatchSegmentationView.swift */; };
+		430CC5282C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC5272C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.swift */; };
+		430CC52F2C0F9F7400D7AC30 /* BundleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC52E2C0F9F7400D7AC30 /* BundleProvider.swift */; };
 		43451D0B2BFA87D60080C356 /* EdgeSegmentationTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43451D0A2BFA87D60080C356 /* EdgeSegmentationTestApp.swift */; };
 		43451D0D2BFA87D60080C356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43451D0C2BFA87D60080C356 /* ContentView.swift */; };
 		43451D0F2BFA87D70080C356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43451D0E2BFA87D70080C356 /* Assets.xcassets */; };
 		43451D122BFA87D70080C356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43451D112BFA87D70080C356 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		430CC5292C0F9E7C00D7AC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43451CFF2BFA87D60080C356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43451D062BFA87D60080C356;
+			remoteInfo = EdgeSegmentationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		430CC5112C0C967A00D7AC30 /* ImageSegmentationView_Previews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSegmentationView_Previews.swift; sourceTree = "<group>"; };
 		430CC5122C0C967A00D7AC30 /* SegmentationView_Previews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentationView_Previews.swift; sourceTree = "<group>"; };
 		430CC51D2C0EEDD200D7AC30 /* SingleSegmentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSegmentationView.swift; sourceTree = "<group>"; };
 		430CC51F2C0EEF7700D7AC30 /* BatchSegmentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchSegmentationView.swift; sourceTree = "<group>"; };
+		430CC5252C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgeSegmentationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		430CC5272C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSegmentationDemoTests.swift; sourceTree = "<group>"; };
+		430CC52E2C0F9F7400D7AC30 /* BundleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleProvider.swift; sourceTree = "<group>"; };
 		43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeSegmentationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43451D0A2BFA87D60080C356 /* EdgeSegmentationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSegmentationTestApp.swift; sourceTree = "<group>"; };
 		43451D0C2BFA87D60080C356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		430CC5222C0F9E7C00D7AC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43451D042BFA87D60080C356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,10 +80,19 @@
 			path = Previews;
 			sourceTree = "<group>";
 		};
+		430CC5262C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				430CC5272C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.swift */,
+			);
+			path = EdgeSegmentationDemoTests;
+			sourceTree = "<group>";
+		};
 		43451CFE2BFA87D60080C356 = {
 			isa = PBXGroup;
 			children = (
 				43451D092BFA87D60080C356 /* EdgeSegmentationDemo */,
+				430CC5262C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests */,
 				43451D082BFA87D60080C356 /* Products */,
 				430CC50C2C0BCA0A00D7AC30 /* Frameworks */,
 			);
@@ -71,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */,
+				430CC5252C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +117,7 @@
 				430CC51F2C0EEF7700D7AC30 /* BatchSegmentationView.swift */,
 				43451D0E2BFA87D70080C356 /* Assets.xcassets */,
 				43451D102BFA87D70080C356 /* Preview Content */,
+				430CC52E2C0F9F7400D7AC30 /* BundleProvider.swift */,
 			);
 			path = EdgeSegmentationDemo;
 			sourceTree = "<group>";
@@ -100,6 +133,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		430CC5242C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430CC52D2C0F9E7C00D7AC30 /* Build configuration list for PBXNativeTarget "EdgeSegmentationDemoTests" */;
+			buildPhases = (
+				430CC5212C0F9E7C00D7AC30 /* Sources */,
+				430CC5222C0F9E7C00D7AC30 /* Frameworks */,
+				430CC5232C0F9E7C00D7AC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				430CC52A2C0F9E7C00D7AC30 /* PBXTargetDependency */,
+			);
+			name = EdgeSegmentationDemoTests;
+			productName = EdgeSegmentationDemoTests;
+			productReference = 430CC5252C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		43451D062BFA87D60080C356 /* EdgeSegmentationDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43451D152BFA87D70080C356 /* Build configuration list for PBXNativeTarget "EdgeSegmentationDemo" */;
@@ -130,6 +181,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					430CC5242C0F9E7C00D7AC30 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 43451D062BFA87D60080C356;
+					};
 					43451D062BFA87D60080C356 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -152,11 +207,19 @@
 			projectRoot = "";
 			targets = (
 				43451D062BFA87D60080C356 /* EdgeSegmentationDemo */,
+				430CC5242C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		430CC5232C0F9E7C00D7AC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43451D052BFA87D60080C356 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,12 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		430CC5212C0F9E7C00D7AC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430CC5282C0F9E7C00D7AC30 /* EdgeSegmentationDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43451D032BFA87D60080C356 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				430CC51E2C0EEDD200D7AC30 /* SingleSegmentationView.swift in Sources */,
 				430CC5162C0C967A00D7AC30 /* SegmentationView_Previews.swift in Sources */,
+				430CC52F2C0F9F7400D7AC30 /* BundleProvider.swift in Sources */,
 				43451D0D2BFA87D60080C356 /* ContentView.swift in Sources */,
 				43451D0B2BFA87D60080C356 /* EdgeSegmentationTestApp.swift in Sources */,
 				430CC5152C0C967A00D7AC30 /* ImageSegmentationView_Previews.swift in Sources */,
@@ -184,7 +256,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		430CC52A2C0F9E7C00D7AC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43451D062BFA87D60080C356 /* EdgeSegmentationDemo */;
+			targetProxy = 430CC5292C0F9E7C00D7AC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		430CC52B2C0F9E7C00D7AC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MWY9CVYY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pittscraft.EdgeSegmentationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgeSegmentationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EdgeSegmentationDemo";
+			};
+			name = Debug;
+		};
+		430CC52C2C0F9E7C00D7AC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MWY9CVYY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pittscraft.EdgeSegmentationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdgeSegmentationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EdgeSegmentationDemo";
+			};
+			name = Release;
+		};
 		43451D132BFA87D70080C356 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,6 +481,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		430CC52D2C0F9E7C00D7AC30 /* Build configuration list for PBXNativeTarget "EdgeSegmentationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				430CC52B2C0F9E7C00D7AC30 /* Debug */,
+				430CC52C2C0F9E7C00D7AC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		43451D022BFA87D60080C356 /* Build configuration list for PBXProject "EdgeSegmentationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
