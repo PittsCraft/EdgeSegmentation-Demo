@@ -1,4 +1,4 @@
-# EdgeSegmentation
+# EdgeSegmentation ✂️
 
 A quick and efficient Prompt-In-The-Loop segmentation library for SwiftUI.
 
@@ -24,7 +24,7 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-
 - Customizable edition decorations 👨‍🎨
 - Fit / fill image display 🏞️ 
 
-➕ Full control over specific behaviors or exotic UI needs possible thanks to high modularity
+➕ Full control to implement specific behaviors or exotic UI needs thanks to high modularity 👌
 
 ### SwiftUI snippets
 
