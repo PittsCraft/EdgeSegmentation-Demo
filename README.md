@@ -4,12 +4,10 @@ A quick and efficient Prompt-In-The-Loop segmentation library for SwiftUI.
 
 ## Overview
 
-EdgeSegmentation provides:
+- **SwiftUI components** to integrate segmentation prompt and display seamlessly (iOS 17)
+- tools to perform segmentation **programmatically** (iOS 15)
 
-- SwiftUI components to integrate segmentation prompt and display seamlessly (iOS 17)
-- tools to perform segmentation programmatically (iOS 15)
-
-Backed on [EdgeSAM](https://github.com/chongzhou96/EdgeSAM).
+Backed on [EdgeSAM](https://github.com/chongzhou96/EdgeSAM)
 
 https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-456e-99c6-05bf016a047f
 
