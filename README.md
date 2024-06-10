@@ -15,15 +15,18 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-
 
 ### Features
 
-- All-in-one fully customizable segmentation prompt view
-- Segment using draggable box, inclusion and exclusion points
-- Drag to share cropped segmentation
-- Zoom to position points precisely
-- Customizable segmentation overlay displaying path
-- Customizable edition decorations
-- Fit / fill image display
+- **All-in-one** ✨ fully customizable segmentation prompt view
+- Segment:
+  - drawing a box 📦
+  - tapping to add inclusion ✅ and exclusion ❌ points
+  - without any extra controls
+- Drag to share ✉️ cropped segmentation
+- Zoom 🔍 to position points precisely
+- Customizable segmentation overlay displaying path 🎨
+- Customizable edition decorations 👨‍🎨
+- Fit / fill image display 🏞️ 
 
-+ Full control over specific behaviors or exotic UI needs made possible by high modularity
+➕ Full control over specific behaviors or exotic UI needs possible thanks to high modularity
 
 ### SwiftUI snippets
 
