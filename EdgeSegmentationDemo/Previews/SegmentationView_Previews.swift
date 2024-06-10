@@ -5,65 +5,41 @@ struct SegmentationView_Previews: PreviewProvider {
 
     struct SegmentationPreview: View {
 
-        @StateObject var coordinator: SegmentationCoordinator
-        @State var maskedImage: UIImage?
-
-        var body: some View {
-            VStack {
-                SegmentationView(coordinator: coordinator)
-                if let maskedImage {
-                    Image(uiImage: maskedImage)
-                        .resizable()
-                        .scaledToFit()
-                }
-                if maskedImage == nil {
-                    Button(action: {
-                        maskedImage = coordinator.segmentationPath?.croppedSegmentation()?.image
-                    }, label: {
-                        Text("Mask")
-                    })
-                    .disabled(coordinator.segmentationPath == nil)
-                }
-            }
-            .onChange(of: coordinator.input) { _, _ in
-                maskedImage = nil
-            }
-        }
-    }
-
-    struct SegmentationPreviewCoordinatorTask: View {
-
         init(_ image: ImageResource) {
             self.image = UIImage(resource: image)
         }
 
         let image: UIImage
-
-        @State var coordinator: SegmentationCoordinator? = nil
+        @State var segmentation: Segmentation? = nil
 
         var body: some View {
-            VStack {
-                if let coordinator {
-                    SegmentationPreview(coordinator: coordinator)
-                } else {
-                    Text("No coordinator yet")
-                }
-            }
-                .task { @MainActor in
-                    Segmentor.prepare()
-                    coordinator = SegmentationCoordinator(image: image)
+            SegmentationView(image: image, segmentation: segmentation) { _, _ in }
+                .task {
+                    do {
+                        let _ = Segmentor.prepare()
+                        let segmentor = Segmentor(for: image)!
+                        try await segmentor.processImage()
+                        let point = CGPoint(x: 1200, y: 600)
+                            .applying(UIKitCoordinates.upOrientedTo(image: image))
+                        let input = SegmentationInput(
+                            positive: [point]
+                        )
+                        segmentation = try await segmentor.segmentation(for: input)
+                    } catch {
+                        print(error)
+                    }
                 }
         }
     }
 
     static var previews: some View {
-        SegmentationPreviewCoordinatorTask(.up)
-        SegmentationPreviewCoordinatorTask(.down)
-        SegmentationPreviewCoordinatorTask(.left)
-        SegmentationPreviewCoordinatorTask(.right)
-        SegmentationPreviewCoordinatorTask(.upMirrored)
-        SegmentationPreviewCoordinatorTask(.downMirrored)
-        SegmentationPreviewCoordinatorTask(.leftMirrored)
-        SegmentationPreviewCoordinatorTask(.rightMirrored)
+        SegmentationPreview(.up)
+        SegmentationPreview(.upMirrored)
+        SegmentationPreview(.down)
+        SegmentationPreview(.downMirrored)
+        SegmentationPreview(.left)
+        SegmentationPreview(.leftMirrored)
+        SegmentationPreview(.right)
+        SegmentationPreview(.rightMirrored)
     }
 }

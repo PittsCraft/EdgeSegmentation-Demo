@@ -5,9 +5,10 @@ private let images = [
     UIImage(resource: .breakfast1),
     UIImage(resource: .breakfast2),
     UIImage(resource: .breakfast3),
+//    UIImage(resource: .breakfast4),
 ]
 
-struct BatchSegmentationView: View {
+struct BatchSegmentationEditionView: View {
 
     @State var index = 0
     @State var coordinators = [SegmentationCoordinator]()
@@ -21,7 +22,7 @@ struct BatchSegmentationView: View {
             VStack {
                 if !coordinators.isEmpty {
                     Spacer()
-                    CoordinatedSegmentationView(coordinator: coordinators[index])
+                    CoordinatedSegmentationEditorView(coordinator: coordinators[index])
                         .id("coordinated-segmentation-view-\(coordinators[index].image.hash)")
                         .animation(.easeInOut, value: index)
                     Spacer()
@@ -44,7 +45,7 @@ private struct CroppedImages: View {
     let coordinators: [SegmentationCoordinator]
 
     var images: [UIImage] {
-        coordinators.compactMap { $0.segmentationPath?.croppedSegmentation()?.image }
+        coordinators.compactMap { $0.segmentation?.croppedSegmentation()?.image }
     }
 
     var body: some View {

@@ -4,9 +4,9 @@ import EdgeSegmentation
 struct SingleSegmentationView: View {
 
     var body: some View {
-        SegmentationContainer(
+        SegmentationEditor(
             image: UIImage(resource: .breakfast3),
-            editionConfiguration: .init(draggableSegmentation: true)
+            draggableSegmentation: true
         )
     }
 }
