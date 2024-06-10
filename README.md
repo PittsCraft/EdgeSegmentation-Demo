@@ -11,6 +11,8 @@ EdgeSegmentation provides:
 
 Backed on [EdgeSAM](https://github.com/chongzhou96/EdgeSAM).
 
+https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-456e-99c6-05bf016a047f
+
 ### Features
 
 - All-in-one fully customizable segmentation prompt view
