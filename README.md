@@ -28,13 +28,13 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-
 
 ### SwiftUI snippets
 
-Segmentation editor with ability to drag to share
+- Segmentation editor with ability to drag to share
 
 ```swift
 SegmentationEditor(image: image, draggableSegmentation: true)
 ```
 
-Segmentation editor with feedback through binding
+- Segmentation editor with feedback through binding
 
 ```swift
 @State var segmentation: Segmentation?
@@ -44,10 +44,21 @@ func body() -> some View {
 }
 ```
 
-Segmentation display (no edition)
+- Segmentation display (no edition)
 
 ```swift
 SegmentationView(image: image, segmentation: segmentation)
+```
+
+- Programmatic segmentation
+
+```swift
+let segmentor = Segmentor(image: image)
+try await segmentor.processImage()
+
+let input = SegmentationInput(positive: [inclusionPoint], negative: [exclusionPoint], box: CGRect(origin: somePoint, size: someSize))
+let segmentation = try await segmentor.segmentation(for: input)
+// Access CGPath for any display ratio, compute cropped segmentation image...
 ```
 
 [Contact me](mailto:pierre@pittscraft.com?subject=EdgeSegmentation%20info) for more information
