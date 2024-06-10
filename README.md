@@ -9,7 +9,7 @@ A quick and efficient Prompt-In-The-Loop segmentation library for SwiftUI.
 
 Backed on [EdgeSAM](https://github.com/chongzhou96/EdgeSAM)
 
-https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/41f81c77-8239-456e-99c6-05bf016a047f
+https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/5150e47d-0f88-4ba6-9b36-3605d6af8584
 
 ### Features
 
