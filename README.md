@@ -18,8 +18,8 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/5150e47d-0f88-
   - drawing a box 📦
   - tapping to add inclusion ✅ and exclusion ❌ points
   - without any extra controls
-- Drag to share ✉️ cropped segmentation
-- Zoom 🔍 to position points precisely
+- Drag to share cropped segmentation ✉️
+- Zoom to position points precisely 🔍
 - Customizable segmentation overlay displaying path 🎨
 - Customizable edition decorations 👨‍🎨
 - Fit / fill image display 🏞️ 
