@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		430CC50E2C0BCA0A00D7AC30 /* EdgeSegmentation in Frameworks */ = {isa = PBXBuildFile; productRef = 430CC50D2C0BCA0A00D7AC30 /* EdgeSegmentation */; };
 		430CC5152C0C967A00D7AC30 /* SegmentationView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC5112C0C967A00D7AC30 /* SegmentationView_Previews.swift */; };
 		430CC5162C0C967A00D7AC30 /* SegmentationEditor_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC5122C0C967A00D7AC30 /* SegmentationEditor_Previews.swift */; };
 		430CC51E2C0EEDD200D7AC30 /* SingleSegmentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CC51D2C0EEDD200D7AC30 /* SingleSegmentationView.swift */; };
@@ -18,6 +17,7 @@
 		43451D0D2BFA87D60080C356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43451D0C2BFA87D60080C356 /* ContentView.swift */; };
 		43451D0F2BFA87D70080C356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43451D0E2BFA87D70080C356 /* Assets.xcassets */; };
 		43451D122BFA87D70080C356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43451D112BFA87D70080C356 /* Preview Assets.xcassets */; };
+		43C4235D2C18E87B001C737C /* EdgeSegmentation in Frameworks */ = {isa = PBXBuildFile; productRef = 43C4235C2C18E87B001C737C /* EdgeSegmentation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430CC50E2C0BCA0A00D7AC30 /* EdgeSegmentation in Frameworks */,
+				43C4235D2C18E87B001C737C /* EdgeSegmentation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +165,7 @@
 			);
 			name = EdgeSegmentationDemo;
 			packageProductDependencies = (
-				430CC50D2C0BCA0A00D7AC30 /* EdgeSegmentation */,
+				43C4235C2C18E87B001C737C /* EdgeSegmentation */,
 			);
 			productName = EdgeSegmentationTest;
 			productReference = 43451D072BFA87D60080C356 /* EdgeSegmentationDemo.app */;
@@ -200,7 +200,7 @@
 			);
 			mainGroup = 43451CFE2BFA87D60080C356;
 			packageReferences = (
-				43451D182BFA88170080C356 /* XCLocalSwiftPackageReference "../EdgeSegmentation" */,
+				43C4235B2C18E87B001C737C /* XCRemoteSwiftPackageReference "EdgeSegmentation" */,
 			);
 			productRefGroup = 43451D082BFA87D60080C356 /* Products */;
 			projectDirPath = "";
@@ -510,17 +510,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		43451D182BFA88170080C356 /* XCLocalSwiftPackageReference "../EdgeSegmentation" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../EdgeSegmentation;
+/* Begin XCRemoteSwiftPackageReference section */
+		43C4235B2C18E87B001C737C /* XCRemoteSwiftPackageReference "EdgeSegmentation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PittsCraft/EdgeSegmentation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		430CC50D2C0BCA0A00D7AC30 /* EdgeSegmentation */ = {
+		43C4235C2C18E87B001C737C /* EdgeSegmentation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 43451D182BFA88170080C356 /* XCLocalSwiftPackageReference "../EdgeSegmentation" */;
+			package = 43C4235B2C18E87B001C737C /* XCRemoteSwiftPackageReference "EdgeSegmentation" */;
 			productName = EdgeSegmentation;
 		};
 /* End XCSwiftPackageProductDependency section */
