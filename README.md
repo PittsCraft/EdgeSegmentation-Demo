@@ -1,6 +1,6 @@
 # EdgeSegmentation ✂️
 
-A quick and efficient Prompt-In-The-Loop segmentation library for SwiftUI.
+A Real-Time Prompt-In-The-Loop Segmentation Library for SwiftUI.
 
 ## Overview
 
