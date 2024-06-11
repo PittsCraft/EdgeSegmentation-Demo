@@ -26,7 +26,7 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/5150e47d-0f88-
 
 ➕ Full control to implement specific behaviors or exotic UI needs thanks to a high modularity 👌
 
-### SwiftUI snippets
+### Code snippets
 
 - Segmentation editor with ability to drag to share
 
