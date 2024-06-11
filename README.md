@@ -24,7 +24,7 @@ https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/5150e47d-0f88-
 - Customizable edition decorations 👨‍🎨
 - Fit / fill image display 🏞️ 
 
-➕ Full control to implement specific behaviors or exotic UI needs thanks to high modularity 👌
+➕ Full control to implement specific behaviors or exotic UI needs thanks to a high modularity 👌
 
 ### SwiftUI snippets
 
