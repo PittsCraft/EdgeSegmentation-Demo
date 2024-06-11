@@ -1,6 +1,6 @@
 # EdgeSegmentation ✂️
 
-A Real-Time Prompt-In-The-Loop Segmentation Library for SwiftUI.
+A Real-Time ML Powered Segmentation Library for SwiftUI.
 
 ## Overview
 
