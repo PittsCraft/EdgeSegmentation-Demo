@@ -10,6 +10,7 @@ A Real-Time ML Powered Segmentation Library for SwiftUI.
 Backed on [EdgeSAM](https://github.com/chongzhou96/EdgeSAM)
 
 ➡️ [Full Documentation](https://pittscraft.com/EdgeSegmentation-Documentation/documentation/edgesegmentation/)
+➡️ [Demo Repository](https://github.com/PittsCraft/EdgeSegmentation-Demo)
 
 https://github.com/PittsCraft/EdgeSegmentation-Demo/assets/327473/5150e47d-0f88-4ba6-9b36-3605d6af8584
 
